@@ -3,23 +3,36 @@
 	<head>
 		<meta charset = "utf-8">
 		<title>CSS Selectors</title>
-		<link rel="stylesheet" type = "text/css" href="styleSel.css">
+		<!-- <link rel="stylesheet" type = "text/css" href="styleSel.css"> -->
+		<link rel="stylesheet" type = "text/css" href="stylePseudo.css">
 	</head>
 	<body>
 		<h1 id="top">This is a <em>heading 1</em></h1>
 		<div id="main">
 			<h2>This is a <em>heading 2</em></h2>
 			<p>
-				Our mission is to bring affordable Technology education to people everywhere, in order to help them achieve their dreams and change the world. Wix.com provides an easy-to-use online platform where you can create and publish your own website. Enjoy powerful drag and drop editing tools and customizable website designs.
+				Our mission is to bring affordable Technology education to people everywhere, in order to help them achieve <b>their dreams</b> and change the world. Wix.com provides an <a href="#link-a" class="foo">easy-to-use online</a> platform where you can create and publish your own website. Enjoy powerful drag and drop editing tools and customizable website designs.
 			</p>
-			<p>
-				Our mission is to help them achieve their dreams and change the world. Wix.com provides an easy-to-use online platform where you can create and publish your own website.
+			<a href="#">a link inside the main div</a>
+			<p class="foo">
+				Our mission is to help them achieve their dreams and change the world. Wix.com provides an <a href="#link-b" class="foo baz">easy-to-use online</a> platform where you can create and publish your <b>own</b> website.
 			</p>
 			<h2>This is a <em>heading 2</em></h2>
+			<ul>
+				<li>The first item</li>
+				<li>The <b>second</b> item</li>
+				<li>The third item</li>
+			</ul>
 			<p>
-				Wix.com provides an easy-to-use online platform where you can create and publish your own website. Enjoy powerful drag and drop editing tools and customizable website designs.
+				Wix.com provides an easy-to-use online platform where you can create and publish your own website. <b>Enjoy</b> powerful drag and drop editing tools and customizable website designs.
 			</p>
+			<form>
+				Name: <input type="text" name="name">
+			</form>
 		</div>
+		<p>
+			Wix.com provides an easy-to-use online platform where you can create and publish your own website. <a href="#link-d" class="baz bar">Enjoy</a> powerful drag and drop editing tools and customizable website designs.
+		</p>
 		<a href="#top">Back to top</a>
 	</body>
 </html>
