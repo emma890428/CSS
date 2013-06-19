@@ -1,0 +1,9 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: -webkit-linear-gradient(hsl(159,51%,44%), rgba(255,255,255,0) 75%),
+				url('images/poster1.jpg');
+	background-size: cover;
+}
