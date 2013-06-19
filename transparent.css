@@ -14,6 +14,6 @@ body {
 	margin: 35px auto;
 
 	/*background: -webkit-repeating-linear-gradient(-45deg, rgba(58,122,187,.9) 2%, rgb(43,79,115) 9%, rgba(58,122,187,.9) 11%);*/
-	background: -webkit-repeating-radial-gradient(0 0, circle, rgba(108, 144, 188,.8), rgba(75, 133, 160, .85) 100px);
+	background: -webkit-repeating-radial-gradient(0 0, circle, rgba(108, 144, 188,.8), rgba(75, 133, 160, .85) 100px),-webkit-repeating-radial-gradient( 0 0, circle, rgba(208, 144, 188,.8), rgba(175, 133, 160, .85) 50px);
 
 }
