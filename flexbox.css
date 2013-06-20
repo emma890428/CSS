@@ -22,9 +22,16 @@
 	-webkit-order: -1;
 }
 
-.col-b {
+/*.col-b {
 	-webkit-align-self: stretch;
-}
+}*/
+
 /*.nav li:last-child {
 	margin-left: auto;
 }*/
+
+@media screen and (max-width: 999px) {
+	.main {
+		-webkit-flex-direction: column;
+	}
+}
